@@ -1,0 +1,32 @@
+:root {
+  --main-bg: #1B9C85;
+  --secondary-bg: #E8F6EF;
+}
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: var(--main-bg);
+  height: 500px;
+  width: 700;
+  max-height: 100vh;
+  max-width: 100%;
+  margin: auto;
+}
+
+.content {
+  
+  text-align: center;
+  width: 50%;
+  height: 200px;
+  background: var(--secondary-bg);
+  border-radius: 20px;
+}
